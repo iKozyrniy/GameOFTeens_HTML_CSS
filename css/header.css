@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation_menu_buttons{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header_menu{
+
+
+}
