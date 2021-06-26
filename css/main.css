@@ -1,73 +1,99 @@
+.descblock_wrapper {
+  display: block;
+}
+
+.descblock {
+  display: flex;
+  justify-content: center;
+}
+
+.descblock_basictext_wrapper {
+  display: block;
+  width: 267px;
+  border: 2px solid blue;
+  margin-bottom: 10px;
+}
+
+.descblock_basictext_wrapper {
+  font: "opensans";
+}
+
+.descblock_img {
+  display: none;
+  border: 3px, solid, gray;
+}
+
 .pricing {
-    text-align: center;
+  text-align: center;
 }
 
 .pricing_plantext_wrapper {
-    margin: 0 auto 13px;
-    display: block;
+  margin: 0 auto 13px;
+  display: block;
 }
 
 .pricing_plantext {
-    
 }
 
 .pricing_plantext_down_wrapper {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .pricing_plancards_wrapper {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.pricing_plancards_onepageSite_wrapper {}
-
-.pricing_plancards_multipageSite_wrapper {}
-
-.pricing_plancards_withserver_wrapper {}
-
-.video_section{
-    background-color: #edf0f4;
-    
+.pricing_plancards_onepageSite_wrapper {
 }
 
-.start_button{
-    width: 49px;
-    height: 49px;
-    display: block;
-    margin: 0 auto;
+.pricing_plancards_multipageSite_wrapper {
 }
 
-.video_section_wrapper{
-    padding-top: 50px;
+.pricing_plancards_withserver_wrapper {
 }
 
-.watch_video_title{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    padding-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: #3b4754;
+.video_section {
+  background-color: #edf0f4;
 }
 
-.unlock_title{
-    text-align: center;
-    font-weight: 700;
-    padding-top: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: #3b4754;
+.start_button {
+  width: 49px;
+  height: 49px;
+  display: block;
+  margin: 0 auto;
 }
 
-.video_section_text{
-    font-weight: 300;
-    padding-top: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    color: #3b4754;
-    width: 270px;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
+.video_section_wrapper {
+  padding-top: 50px;
+}
+
+.watch_video_title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #3b4754;
+}
+
+.unlock_title {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #3b4754;
+}
+
+.video_section_text {
+  font-weight: 300;
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #3b4754;
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
 }
