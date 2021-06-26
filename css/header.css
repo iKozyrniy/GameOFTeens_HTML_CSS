@@ -1,5 +1,4 @@
-.header{
-}
+
 
 .header_wrapper{
     display: flex;
@@ -10,7 +9,7 @@
 
 .logo{
     display: block;
-    font-weight: 10;
+    font-weight: 300;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Dancing Script', cursive;
