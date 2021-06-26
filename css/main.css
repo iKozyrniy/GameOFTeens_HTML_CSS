@@ -1,3 +1,9 @@
+/* --------------------desblock--------------------- */
+
+main {
+  margin-top: 45px;
+}
+
 .descblock_wrapper {
   display: block;
 }
@@ -15,7 +21,7 @@
 }
 
 .descblock_basictext_wrapper {
-  font: "opensans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .descblock_img {
@@ -23,35 +29,71 @@
   border: 3px, solid, gray;
 }
 
-.pricing {
+.descblock_wrapper:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+/* -----------------------benefits----------------------- */
+
+.benefits_section {
+  padding: 85px 0;
+}
+
+.benefits_card_wrapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 195px;
+}
+
+.benefits_card {
+  width: 190px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
-.pricing_plantext_wrapper {
-  margin: 0 auto 13px;
+.benefits_card3 {
+  margin: 0;
+}
+
+.benefits_card_img {
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.benefits_card_title {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.benefits_card_text {
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.benefits_section:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
   display: block;
-}
-
-.pricing_plantext {
-}
-
-.pricing_plantext_down_wrapper {
   margin: 0 auto;
+  margin-top: 0;
 }
 
-.pricing_plancards_wrapper {
-  margin: 0 auto;
-}
 
-.pricing_plancards_onepageSite_wrapper {
-}
 
-.pricing_plancards_multipageSite_wrapper {
-}
-
-.pricing_plancards_withserver_wrapper {
-}
-
+/* --------------------------video section---------------- */
 .video_section {
   background-color: #edf0f4;
 }
@@ -96,4 +138,184 @@
   margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
+}
+
+.video_section:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+/* ------------------------------our clients say---------------------- */
+
+.our_clients_say_section {
+  padding-top: 50px;
+}
+
+.our_clients_say_title {
+  font-size: 24px;
+  color: #3b4754;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+}
+
+.our_clients_say_app {
+  color: #9fafc1;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.our_clients_say_text {
+  color: #606060;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+}
+
+.our_clients_say_text:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.message_autor {
+  color: #9fafc1;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.our_clients_say_section:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+
+
+/* ------------------------get in touch----------------- */
+
+.get_in_touch_section {
+  padding-top: 50px;
+}
+
+.get_in_touch_title {
+  color: #3b4754;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.get_in_touch_text {
+  width: 270px;
+  text-align: center;
+  margin: 0 auto;
+  color: #606060;
+  font-size: 16;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 15px;
+}
+
+.get_in_touch_forms {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.email_input {
+  font-size: 18;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7a7a7a;
+  display: block;
+  margin: 0 auto;
+  width: 210px;
+  height: 41px;
+}
+
+.name_input {
+  font-size: 18;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7a7a7a;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 210px;
+  height: 41px;
+}
+
+.message_input {
+  font-size: 18;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7a7a7a;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 210px;
+  height: 71px;
+}
+
+.send_button {
+  width: 100px;
+  height: 41px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.get_in_touch_forms:after {
+  content: "";
+  border-bottom: 3px solid #edf0f4;
+  width: 200px;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.street_info {
+  text-align: center;
+  font-size: 14;
+  color: #606060;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+.phone_number_info {
+  text-align: center;
+  font-size: 14;
+  color: #606060;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+.get_in_touch_section:after {
+  content: "";
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
 }
