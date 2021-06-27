@@ -11,6 +11,7 @@ main {
 .descblock {
   display: flex;
   justify-content: center;
+  padding: 0 1rem;
 }
 
 .descblock_basictext_wrapper {
@@ -20,8 +21,17 @@ main {
   margin-bottom: 10px;
 }
 
-.descblock_basictext {
+.desсblock_basictext {
   font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.descblock_basictext_wrapper:hover {
+  transition: 50ms;
+  width: 300px;
+  border: 5px solid rgb(0, 0, 122);
 }
 
 .descblock_img {
@@ -29,7 +39,10 @@ main {
   border: 3px, solid, gray;
 }
 
-
+.desсblock_text {
+  font-family: "Open Sans", sans-serif;
+  font-style: 35px;
+}
 
 .descblock_wrapper:after {
   content: "";
@@ -40,7 +53,25 @@ main {
   margin: 0 auto;
   margin-top: 0;
 }
+.descblock_btn {
+  text-transform: uppercase;
+  background-color: #29323d;
+  border: none;
+  color: #fff;
+  height: 28px;
+  font-family: "Open Sans", sans-serif;
+  width: 132px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+}
 
+.descblock_btn:hover {
+  background-color: black;
+  color: #fff;
+  transition: 150ms;
+}
 
 /* -------------------tablet---------------------------- */
 
@@ -203,11 +234,22 @@ main {
   background-color: rgb(250, 250, 250);
 }
 
+.pricing_plancards_onepageSite:hover {
+  transition: 100ms;
+  border: 3px solid #2d00f8;
+}
+
+
 .pricing_plancards_multipageSite {
   position: relative;
   border: 2px solid #3b4754;
   border-radius: 7px;
   background-color: rgb(250, 250, 250);
+}
+
+.pricing_plancards_multipageSite:hover {
+  transition: 100ms;
+  border: 3px solid #2d00f8;
 }
 
 .pricing_plancards_card_img {
@@ -227,6 +269,8 @@ main {
 .pricing_plancards_card_basictext_wrapper {
   padding-top: 40px;
 }
+
+
 
 .pricing_plancards_card_basictext {
   font-family: "Open Sans", sans-serif;
@@ -285,6 +329,19 @@ main {
   text-transform: uppercase;
   color: #fff;
 }
+
+.pricing_plancards_card_cost_getstarted:hover {
+  width: 150px;
+  height: 44px;
+  transition: 200ms;
+}
+
+.pricing_plancards_card_cost_getstarted_text:hover {
+  color: #fff;
+  padding-top: 11px;
+  transition: 200ms;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {}
