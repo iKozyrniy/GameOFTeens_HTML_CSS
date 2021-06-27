@@ -20,7 +20,7 @@ main {
   margin-bottom: 10px;
 }
 
-.descblock_basictext_wrapper {
+.descblock_basictext {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,6 +28,8 @@ main {
   display: none;
   border: 3px, solid, gray;
 }
+
+
 
 .descblock_wrapper:after {
   content: "";
@@ -37,6 +39,19 @@ main {
   display: block;
   margin: 0 auto;
   margin-top: 0;
+}
+
+
+/* -------------------tablet---------------------------- */
+
+
+@media screen and (min-width: 768px) {
+  .descblock_basictext_wrapper {
+    display: block;
+    width: 300px;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+  }
 }
 
 /* -----------------------benefits----------------------- */
@@ -91,6 +106,190 @@ main {
   margin-top: 0;
 }
 
+.pricing_wrapper {
+  display: block;
+  margin-top: 40px;
+}
+
+.pricing {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pricing_plantext_wrapper {
+  margin: 0 auto 13px;
+  display: block;
+}
+
+.pricing_plantext {
+  text-transform: uppercase;
+}
+
+.pricing_plantext_down_wrapper {
+  margin: 0 auto 25px;
+}
+
+.pricing_plantext_down {
+  color: gray;
+}
+
+
+.pricing_monthlyplan_wrapper {
+  width: 100px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 50px;
+}
+
+.pricing_monthlyplan_text {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pricing_plancards_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------TABLET------ */
+
+@media screen and (min-width: 768px) {
+    
+  .benefits_card_wrapp {
+     width: 715px;
+     flex-direction: row;
+  }
+ 
+  .benefits_card {
+     width: 200px;
+     margin: 0;
+  }
+ }
+ 
+ /* -----DESCTOP----- */
+ 
+ @media screen and (min-width: 1440px) {
+ 
+   .benefits_card_wrapp {
+     width: 830px;
+  }  
+ 
+ } 
+
+/* ------------------------Pricing cards--------------------------------- */
+
+.pricing_plancards_onepageSite_wrapper {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.pricing_plancards_multipageSite_wrapper {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+  width: 207px;
+}
+
+.pricing_plancards_onepageSite {
+  position: relative;
+  border: 2px solid #3b4754;
+  border-radius: 7px;
+  background-color: rgb(250, 250, 250);
+}
+
+.pricing_plancards_multipageSite {
+  position: relative;
+  border: 2px solid #3b4754;
+  border-radius: 7px;
+  background-color: rgb(250, 250, 250);
+}
+
+.pricing_plancards_card_img {
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.pricing_plancards_card_text_wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pricing_plancards_card_basictext_wrapper {
+  padding-top: 40px;
+}
+
+.pricing_plancards_card_basictext {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pricing_plancards_card_subtext_wrapper {
+  margin-top: 20px;
+}
+
+.pricing_plancards_card_subtext {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.gray {
+  color: gray;
+}
+
+/* --------------------------------------Cost---------------------------- */
+
+
+.pricing_plancards_card_cost {
+  display: flex;
+  justify-content: center;
+  flex-direction: start;
+}
+
+
+.pricing_plancards_card_cost_text_wrapper{
+  width: 120px;
+}
+
+.pricing_plancards_card_cost_price {padding: 0 0 0 0;}
+
+.pricing_plancards_card_cost_permonth {
+  font-size: 10px;
+}
+
+.pricing_plancards_card_cost_getstarted_wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.pricing_plancards_card_cost_getstarted {
+  width: 120px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.pricing_plancards_card_cost_getstarted_text {
+  color: #fff;
+}
+
+.pricing_plancards_card_cost_getstarted_text_a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {}
+
+/* ------------------------------------------------------------------------- */
 
 
 /* --------------------------video section---------------- */
@@ -150,6 +349,40 @@ main {
   margin-top: 0;
 }
 
+/* ----------tablet------------ */
+
+@media screen and (min-width: 769px) {
+  .video_section_text {
+    font-weight: 300;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #3b4754;
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* --------------desctop------------------- */
+
+
+@media screen and (min-width: 1440px) {
+  .video_section_text {
+    font-weight: 300;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #3b4754;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+
 /* ------------------------------our clients say---------------------- */
 
 .our_clients_say_section {
@@ -200,6 +433,7 @@ main {
   padding-top: 7px;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  margin-bottom: 35px;
 }
 
 .our_clients_say_section:after {
@@ -212,7 +446,33 @@ main {
   margin-top: 0;
 }
 
+/* ------------------------------Tablet------------------------ */
 
+@media screen and (min-width: 768px) {
+  .our_clients_say_text {
+    color: #606060;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    width: 660px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our_clients_say_text {
+    color: #606060;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 /* ------------------------get in touch----------------- */
 
@@ -318,4 +578,38 @@ main {
   display: block;
   margin: 0 auto;
   margin-top: 0;
+}
+
+
+
+/* -------------------Tablet--------------------------- */
+
+
+@media screen and (min-width: 768px) {
+  .get_in_touch_text {
+    width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    color: #606060;
+    font-size: 16;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-top: 15px;
+  }
+}
+
+
+
+/* ------------------Desctop----------------------------------- */
+
+
+@media screen and (min-width: 768px) {
+  .get_in_touch_text {
+    width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    color: #606060;
+    font-size: 16;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-top: 15px;
+  }
 }
