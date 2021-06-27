@@ -259,6 +259,9 @@ main {
   right: 50px;
   transform: translate(-50%, -50%);
   position: absolute;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #fff;
 }
 
 .pricing_plancards_card_text_wrapper {
@@ -637,6 +640,23 @@ main {
   margin-top: 0;
 }
 
+.street_info::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  background-image: url('../img/pin..png');
+  width: 14px;
+  height: 14px;
+}
+
+.phone_number_info::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  background-image: url('../img/phone..png');
+  width: 14px;
+  height: 14px;
+}
 
 
 /* -------------------Tablet--------------------------- */
